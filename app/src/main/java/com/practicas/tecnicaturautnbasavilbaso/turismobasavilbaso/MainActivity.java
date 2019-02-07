@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         //imageView bandera
         bandera=(ImageView)findViewById(R.id.imageViewBandera);
 
-        int intBandera=getResources().getIdentifier("drawable/bandera basso app", null, this.getPackageName());
+        int intBandera=getResources().getIdentifier("drawable/banderabassoapp", null, this.getPackageName());
         bandera.setImageResource(intBandera);
 
 
