@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Turismo Basavilbaso</string>
     <string name="txtBienvenido">Bienvenidos</string>
+    <string name="botonAtractivos">Atractivos</string>
+    <string name="botonAlojaminetos">Alojamientos</string>
 </resources>

@@ -30,4 +30,38 @@
         android:visibility="visible"
         app:srcCompat="@drawable/banderabassoapp" />
 
+    <ScrollView
+        android:id="@+id/scrollViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="201dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAtractivos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                tools:text="@string/botonAtractivos" />
+
+            <Button
+                android:id="@+id/btnAlojamientos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:textSize="18sp"
+                tools:text="@string/botonAlojaminetos" />
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>
