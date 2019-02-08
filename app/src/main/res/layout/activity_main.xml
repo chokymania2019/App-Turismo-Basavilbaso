@@ -52,43 +52,48 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
+                android:onClick="abrirAtractivos"
+                android:text="@string/botonAtractivos"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp"
-                tools:text="@string/botonAtractivos" />
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnAlojamientos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/background_light"
-                android:textSize="18sp"
-                tools:text="@string/botonAlojaminetos" />
+                android:onClick="abrirAlojamientos"
+                android:text="@string/botonAlojamientos"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnGastronomia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
+                android:onClick="abrirGastronomia"
+                android:text="@string/botonGastronomia"
                 android:textColor="@android:color/background_light"
-                android:textSize="18sp"
-                tools:text="@string/botonGastronomia" />
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnTelefonos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/background_light"
-                android:textSize="18sp"
-                tools:text="@string/botonTelefonos" />
+                android:onClick="abrirTelefonos"
+                android:text="@string/botonTelefonos"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnPlano"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
+                android:onClick="abrirPlano"
+                android:text="@string/botonPlano"
                 android:textColor="@android:color/background_light"
-                android:textSize="18sp"
-                tools:text="@string/botonPlano" />
+                android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>
 
