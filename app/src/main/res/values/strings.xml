@@ -3,4 +3,8 @@
     <string name="txtBienvenido">Bienvenidos</string>
     <string name="botonAtractivos">Atractivos</string>
     <string name="botonAlojaminetos">Alojamientos</string>
+    <string name="botonGastronomia">Gastronomia</string>
+    <string name="botonTelefonos">Telefonos utiles</string>
+    <string name="botonPlano">Plano de la Ciudad</string>
+
 </resources>

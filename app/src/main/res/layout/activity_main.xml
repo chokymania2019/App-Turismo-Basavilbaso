@@ -33,10 +33,12 @@
     <ScrollView
         android:id="@+id/scrollViewMenu"
         android:layout_width="match_parent"
-        android:layout_height="310dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="201dp">
 
@@ -61,6 +63,32 @@
                 android:background="@android:color/background_light"
                 android:textSize="18sp"
                 tools:text="@string/botonAlojaminetos" />
+
+            <Button
+                android:id="@+id/btnGastronomia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                tools:text="@string/botonGastronomia" />
+
+            <Button
+                android:id="@+id/btnTelefonos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:textSize="18sp"
+                tools:text="@string/botonTelefonos" />
+
+            <Button
+                android:id="@+id/btnPlano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                tools:text="@string/botonPlano" />
         </LinearLayout>
     </ScrollView>
 
