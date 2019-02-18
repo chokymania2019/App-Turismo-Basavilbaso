@@ -23,7 +23,7 @@ public class PlanoActivity extends AppCompatActivity {
         //imageView plano
         plano=(ImageView)findViewById(R.id.imageViewPlano);
 
-        int intPlano=getResources().getIdentifier("drawable/mapabasso", null, this.getPackageName());
+        int intPlano=getResources().getIdentifier("drawable/mapabassore", null, this.getPackageName());
         plano.setImageResource(intPlano);
     }
 

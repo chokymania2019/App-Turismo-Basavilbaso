@@ -37,7 +37,7 @@
         android:contentDescription="@string/txtPlano"
         android:scaleType="fitCenter"
         android:visibility="visible"
-        app:srcCompat="@drawable/mapabasso" />
+        app:srcCompat="@drawable/mapabassore" />
 
     <Button
         android:id="@+id/btnGoogleMaps"
