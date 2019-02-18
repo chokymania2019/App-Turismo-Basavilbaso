@@ -6,5 +6,8 @@
     <string name="botonGastronomia">Gastronomia</string>
     <string name="botonTelefonos">Telefonos utiles</string>
     <string name="botonPlano">Plano de la Ciudad</string>
+    <string name="txtPlano">Plano de la Ciudad</string>
+    <string name="btnMaps">ver en Google Maps</string>
+
 
 </resources>
