@@ -5,10 +5,13 @@
     <string name="botonAtractivos">Atractivos</string>
     <string name="botonAlojamientos">Alojamientos</string>
     <string name="botonGastronomia">Gastronomia</string>
-    <string name="botonTelefonos">Telefonos utiles</string>
+    <string name="botonTelefonos">Telefonos Utiles</string>
     <string name="botonPlano">Plano de la Ciudad</string>
     <string name="txtPlano">Plano de la Ciudad</string>
     <string name="btnMaps">ver en Google Maps</string>
+    <string name="txtBombero">Bomberos &#160;&#160; +54 3445 482018</string>
+    <string name="txtCorreo">Correo &#160;&#160; +54 3445 481621</string>
+    <string name="txtHospital"> Hospital &#160;&#160; +54 3445 481281 </string>
 
 
 </resources>
