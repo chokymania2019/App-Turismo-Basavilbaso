@@ -28,7 +28,7 @@ public class PlanoActivity extends AppCompatActivity {
     }
 
     public void googleMaps (View view){
-        Intent mapsIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.ar/maps/@-32.3727404,-58.8760139,15z?hl=es"));
+        Intent mapsIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.ar/maps/@-32.3723761,-58.8783746,15.08z"));
         startActivity(mapsIntent);
     }
 }

@@ -9,9 +9,12 @@
     <string name="botonPlano">Plano de la Ciudad</string>
     <string name="txtPlano">Plano de la Ciudad</string>
     <string name="btnMaps">ver en Google Maps</string>
-    <string name="txtBombero">Bomberos &#160;&#160; +54 3445 482018</string>
-    <string name="txtCorreo">Correo &#160;&#160; +54 3445 481621</string>
-    <string name="txtHospital"> Hospital &#160;&#160; +54 3445 481281 </string>
+    <string name="txtBomberos">Bomberos</string>
+    <string name="telBomberos">+54 3445 482018</string>
+    <string name="txtCorreo">Correo</string>
+    <string name="telCorreo">+54 3445 481621</string>
+    <string name="txtHospital">Hospital</string>
+    <string name="telHospital">+54 3445 481281</string>
 
 
 </resources>

@@ -47,8 +47,9 @@
 
             <Button
                 android:id="@+id/btnAtractivos"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@color/colorPrimary"
                 android:onClick="abrirAtractivos"
                 android:text="@string/botonAtractivos"
@@ -57,8 +58,9 @@
 
             <Button
                 android:id="@+id/btnAlojamientos"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@android:color/background_light"
                 android:onClick="abrirAlojamientos"
                 android:text="@string/botonAlojamientos"
@@ -66,8 +68,9 @@
 
             <Button
                 android:id="@+id/btnGastronomia"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@color/colorPrimary"
                 android:onClick="abrirGastronomia"
                 android:text="@string/botonGastronomia"
@@ -76,8 +79,9 @@
 
             <Button
                 android:id="@+id/btnTelefonos"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@android:color/background_light"
                 android:onClick="abrirTelefonos"
                 android:text="@string/botonTelefonos"
@@ -85,8 +89,9 @@
 
             <Button
                 android:id="@+id/btnPlano"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@color/colorPrimary"
                 android:onClick="abrirPlano"
                 android:text="@string/botonPlano"
