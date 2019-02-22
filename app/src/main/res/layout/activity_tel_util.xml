@@ -131,24 +131,158 @@
             <Space
                 android:layout_width="20dp"
                 android:layout_height="wrap_content" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
 
         </TableRow>
 
+        <View
+            android:layout_height="7dp"
+            android:background="#FFFFFF" />
+
+
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center">
 
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtHospital"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telHospital"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/btnCallHospital"
+                android:layout_width="50dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
         </TableRow>
+        <View
+            android:layout_height="7dp"
+            android:background="#FFFFFF" />
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:gravity="center">
 
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtMunicipalidad"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telMunicipalidad"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/btnCallMunicipaliddad"
+                android:layout_width="50dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <View
+            android:layout_height="7dp"
+            android:background="#FFFFFF" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPolicia"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telPolicia"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <View
+            android:layout_height="7dp"
+            android:background="#FFFFFF" />
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
