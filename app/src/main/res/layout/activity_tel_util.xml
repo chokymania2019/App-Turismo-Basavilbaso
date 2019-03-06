@@ -37,23 +37,25 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center">
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/txtBomberos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:text="@string/txtBomberos"
                 android:textColor="@android:color/background_dark"
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -65,7 +67,7 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="wrap_content"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <ImageButton
@@ -77,7 +79,7 @@
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
         </TableRow>
@@ -88,12 +90,12 @@
             android:background="#FFFFFF" />
 
         <TableRow
-            android:layout_width="20dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center">
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -105,7 +107,7 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="30dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -117,7 +119,7 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <ImageButton
@@ -129,7 +131,7 @@
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
         </TableRow>
@@ -140,12 +142,12 @@
 
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center">
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -157,7 +159,7 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="30dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -169,7 +171,7 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <ImageButton
@@ -181,20 +183,21 @@
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
         </TableRow>
+
         <View
             android:layout_height="7dp"
             android:background="#FFFFFF" />
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center">
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -206,7 +209,7 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="30dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -218,31 +221,33 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <ImageButton
-                android:id="@+id/btnCallMunicipaliddad"
+                android:id="@+id/btnCallMunicipalidad"
                 android:layout_width="50dp"
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
+                android:contentDescription="@string/txtMunicipalidad"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
         </TableRow>
+
         <View
             android:layout_height="7dp"
             android:background="#FFFFFF" />
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center">
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -254,7 +259,7 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -266,23 +271,26 @@
                 android:textSize="18sp" />
 
             <Space
-                android:layout_width="30dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
-            <ImageView
-                android:id="@+id/imageView3"
+            <ImageButton
+                android:id="@+id/btnCallPolicia"
                 android:layout_width="50dp"
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
+                android:contentDescription="@string/txtPolicia"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
-                android:layout_width="20dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content" />
         </TableRow>
+
         <View
             android:layout_height="7dp"
             android:background="#FFFFFF" />
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
