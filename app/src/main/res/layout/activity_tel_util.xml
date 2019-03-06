@@ -24,8 +24,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="0dp"
-        android:layout_height="426dp"
+        android:layout_height="304dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="88dp"
@@ -292,8 +293,105 @@
             android:background="#FFFFFF" />
 
         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtpolideport"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telpolideport"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="50dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/txtpolideport"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <View
+            android:layout_height="7dp"
+            android:background="#FFFFFF" />
+
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtBoleteria"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telBoleteria"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="50dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/txtBoleteria"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <View
+            android:layout_height="7dp"
+            android:background="#FFFFFF" />
+
     </TableLayout>
 
 </android.support.constraint.ConstraintLayout>
