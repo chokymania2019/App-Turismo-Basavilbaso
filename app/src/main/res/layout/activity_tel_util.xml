@@ -26,16 +26,19 @@
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="0dp"
-        android:layout_height="304dp"
+        android:layout_height="422dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="88dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <TableRow
             android:layout_width="wrap_content"
@@ -77,6 +80,7 @@
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
                 android:contentDescription="@string/app_name"
+                android:onClick="llamarBomberos"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
@@ -129,6 +133,7 @@
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
                 android:contentDescription="@string/app_name"
+                android:onClick="llamarCorreo"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
@@ -181,6 +186,7 @@
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
                 android:contentDescription="@string/app_name"
+                android:onClick="llamarHospital"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
@@ -231,6 +237,7 @@
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
                 android:contentDescription="@string/txtMunicipalidad"
+                android:onClick="llamarMuni"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
@@ -281,6 +288,7 @@
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
                 android:contentDescription="@string/txtPolicia"
+                android:onClick="llamarPolicia"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
@@ -326,11 +334,12 @@
                 android:layout_height="wrap_content" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/btnCallPolidep"
                 android:layout_width="50dp"
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
                 android:contentDescription="@string/txtpolideport"
+                android:onClick="llamarPolidep"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
@@ -376,11 +385,12 @@
                 android:layout_height="wrap_content" />
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/btnCallFlecha"
                 android:layout_width="50dp"
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
                 android:contentDescription="@string/txtBoleteria"
+                android:onClick="llamarFlecha"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
             <Space
@@ -391,6 +401,117 @@
         <View
             android:layout_height="7dp"
             android:background="#FFFFFF" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtRemises"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="7dp"
+            android:background="#FFFFFF" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtServicentro"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telServicentro"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/btnCallServicentro"
+                android:layout_width="50dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/txtServicentro"
+                android:onClick="llamarServicentro"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+        </TableRow>
+
+        <View
+            android:layout_height="7dp"
+            android:background="#FFFFFF" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtServife"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telServife"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/btnCallServife"
+                android:layout_width="50dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/txtServife"
+                android:onClick="llamarServife"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+        </TableRow>
 
     </TableLayout>
 
