@@ -28,6 +28,19 @@
     <string name="telServicentro">+54 3445 481000</string>
     <string name="txtServife">Servi-Fe</string>
     <string name="telServife">+54 3445 482400</string>
-
-
+    <string name="txtAtractivos">ATRACTIVOS</string>
+    <string name="txtTermas">Termas salinas De Basavilbaso</string>
+    <string name="txtDirTermas">Ruta 20 Km. 93</string>
+    <string name="txtCircuito">Circuito de las Colonias Judías</string>
+    <string name="txtDirCircuito">Asociación Israelita</string>
+    <string name="txtMuseoFerroviario">Museo Ferroviario</string>
+    <string name="txtDirMuseoFerroviario">Podesta e I. Neyra</string>
+    <string name="txtMuseoHistórico">Museo Histórico Regional</string>
+    <string name="txtdirMuseoHistorico">Av. Pte Peron y Av. San Martín</string>
+    <string name="txtCasaMuseo">Casa Museo "La Posta del Aviador"</string>
+    <string name="txtDirCasaMuseo">Quiróz 569</string>
+    <string name="txtAlojamientos">ALOJAMIENTOS</string>
+    <string name="txtHotel5Soles">Hotel "5 Soles"</string>
+    <string name="txtDirHotel5Soles">Estrada 730</string>
+    <string name="txtHotelRobert">Hotel "Robertito"</string>
 </resources>
