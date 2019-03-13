@@ -4,8 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="@android:color/transparent"
+    android:background="@android:color/background_light"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logoturismogestion" />
 
     <TextView
         android:id="@+id/textView"
@@ -112,6 +120,15 @@
                 android:onClick="abrirPlano"
                 android:text="@string/botonPlano"
                 android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnFotos"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:text="@string/botonFotos"
+                android:textColor="@android:color/background_dark"
                 android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>

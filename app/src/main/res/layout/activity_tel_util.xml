@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".TelUtilActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logoturismogestion" />
+
     <TextView
 
         android:id="@+id/textView2"
@@ -92,7 +100,7 @@
 
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
         <TableRow
             android:layout_width="wrap_content"
@@ -144,7 +152,7 @@
 
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
 
         <TableRow
@@ -196,7 +204,7 @@
 
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
         <TableRow
             android:layout_width="wrap_content"
@@ -247,7 +255,7 @@
 
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
         <TableRow
             android:layout_width="wrap_content"
@@ -298,7 +306,7 @@
 
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -349,7 +357,7 @@
 
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -400,7 +408,7 @@
 
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -422,7 +430,7 @@
 
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
         <!--aca va servicentro-->
         <TableRow
@@ -475,10 +483,9 @@
         </TableRow>
 
 
-
         <View
             android:layout_height="7dp"
-            android:background="#FFFFFF" />
+            android:background="@android:color/transparent" />
 
         <!--aca va servife-->
 

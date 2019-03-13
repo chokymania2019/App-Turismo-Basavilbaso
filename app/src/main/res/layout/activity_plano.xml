@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".PlanoActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logoturismogestion" />
+
     <TextView
         android:id="@+id/txtPlano"
         android:layout_width="wrap_content"
