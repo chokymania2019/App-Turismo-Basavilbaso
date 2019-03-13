@@ -41,120 +41,74 @@ public class TelUtilActivity extends AppCompatActivity {
         callServife=(ImageButton)findViewById(R.id.btnCallServife);
     }
 
-    //metodos para llamada PROBAR!!
     public void llamarBomberos (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445482018"));
 
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) !=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
         startActivity(intent);
-
     }
 
     public void llamarCorreo (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445481621"));
-
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) !=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
 
         startActivity(intent);
     }
 
     public void llamarHospital (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445481281"));
-
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) !=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
 
         startActivity(intent);
     }
 
     public void llamarMuni (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445481055"));
-
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE)!=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
 
         startActivity(intent);
     }
 
     public void llamarPolicia (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445481281"));
-
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) !=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
 
         startActivity(intent);
     }
 
     public void llamarPolidep (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445481380"));
-
-        if(ActivityCompat.checkSelfPermission(this,Manifest.permission.CALL_PHONE) !=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
 
         startActivity(intent);
     }
 
     public void llamarFlecha (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445482129"));
-
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) !=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
 
         startActivity(intent);
     }
 
     public void llamarServicentro (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445481000"));
-
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) !=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
 
         startActivity(intent);
     }
 
     public void llamarServife (View view) {
 
-        Intent intent = new Intent(Intent.ACTION_CALL);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445482400"));
-
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) !=PackageManager.PERMISSION_GRANTED){
-
-            return;
-        }
 
         startActivity(intent);
     }
