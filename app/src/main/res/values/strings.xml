@@ -21,12 +21,12 @@
     <string name="telPolicia">+54 3445 481281</string>
     <string name="txtpolideport">Polideportivo</string>
     <string name="telpolideport">+54 3445 481380</string>
-    <string name="txtBoleteria"> Flechabus</string>
-    <string name="telBoleteria"> +54 3445 482129</string>
-    <string name="txtRemises"> Remises </string>
-    <string name="txtServicentro"> Servi-Centro</string>
-    <string name="telServicentro"> +54 3445 481000</string>
-    <string name="txtServife"> Servi-Fe</string>
+    <string name="txtBoleteria">Flechabus</string>
+    <string name="telBoleteria">+54 3445 482129</string>
+    <string name="txtRemises">Remises </string>
+    <string name="txtServicentro">Servi-Centro</string>
+    <string name="telServicentro">+54 3445 481000</string>
+    <string name="txtServife">Servi-Fe</string>
     <string name="telServife">+54 3445 482400</string>
 
 

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/botonTelefonos"
@@ -29,16 +29,16 @@
         android:layout_height="422dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.981">
 
         <TableRow
             android:layout_width="wrap_content"
@@ -301,7 +301,7 @@
             android:background="#FFFFFF" />
 
         <TableRow
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center">
 
@@ -417,15 +417,17 @@
                 android:text="@string/txtRemises"
                 android:textColor="@android:color/background_dark"
                 android:textSize="18sp" />
+
         </TableRow>
 
         <View
             android:layout_height="7dp"
             android:background="#FFFFFF" />
 
+        <!--aca va servicentro-->
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:gravity="center">
 
             <Space
@@ -433,9 +435,10 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/txtServicentro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
                 android:text="@string/txtServicentro"
                 android:textColor="@android:color/background_dark"
                 android:textSize="18sp" />
@@ -445,7 +448,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/telServicento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/telServicentro"
@@ -461,28 +464,38 @@
                 android:layout_width="50dp"
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
-                android:contentDescription="@string/txtServicentro"
+                android:contentDescription="@string/app_name"
                 android:onClick="llamarServicentro"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
         </TableRow>
+
+
 
         <View
             android:layout_height="7dp"
             android:background="#FFFFFF" />
 
+        <!--aca va servife-->
+
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical|center_horizontal">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
             <Space
                 android:layout_width="10dp"
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/txtBomberos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
                 android:text="@string/txtServife"
                 android:textColor="@android:color/background_dark"
                 android:textSize="18sp" />
@@ -492,7 +505,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/telServife"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/telServife"
@@ -508,9 +521,13 @@
                 android:layout_width="50dp"
                 android:layout_height="37dp"
                 android:background="@color/colorPrimary"
-                android:contentDescription="@string/txtServife"
-                android:onClick="llamarServife"
+                android:contentDescription="@string/app_name"
                 app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
         </TableRow>
 
     </TableLayout>
