@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button gastronomia;
     Button telefonos;
     Button plano;
+    Button fotos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         gastronomia=(Button)findViewById(R.id.btnGastronomia);
         telefonos=(Button)findViewById(R.id.btnTelefonos);
         plano=(Button)findViewById(R.id.btnTelefonos);
+        fotos=(Button)findViewById(R.id.btnFotos);
 
         //icono en el action bar
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -73,6 +75,13 @@ public class MainActivity extends AppCompatActivity {
 
         Intent inPla = new Intent (this, PlanoActivity.class);
         startActivity(inPla);
+
+    }
+
+    public void abrirFotos (View view){
+
+        Intent inFot = new Intent (this, FotosActivity.class);
+        startActivity(inFot);
 
     }
 

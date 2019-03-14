@@ -32,7 +32,7 @@
     <string name="telServife">+54 3445 482400</string>
 
     <string name="txtAtractivos">Atractivos</string>
-    <string name="txtTermas">Termas salinas De Basavilbaso</string>
+    <string name="txtTermas">Termas de Basavilbaso</string>
     <string name="txtDirTermas">Ruta 20 Km. 93</string>
     <string name="txtCircuito">Circuito de las Colonias Judías</string>
     <string name="txtDirCircuito">Asociación Israelita</string>
@@ -64,5 +64,33 @@
     <string name="txtCampPoli">Camping Polideportivo "Gral. San Martín"</string>
     <string name="txtDirCampPoli">Suipacha e Yrigoyen</string>
 
-    <string name="txtGastronomia">Gastronomia</string>
+    <!--Gastronomia-->
+    <string name="txtLaChacra">Comedor y Parrila "La Chacra"</string>
+    <string name="txtDirLaChacra">Av. Urquiza 609</string>
+    <string name="txtClemente">Restaurant "Clemente"</string>
+    <string name="txtDirClemente">Parque termal, Ruta 20 Km 93</string>
+    <string name="txtComRobertito">Comedor Hotel "Robertito"</string>
+    <string name="txtDirComRobertito">Ramirez esq I. Neyra</string>
+    <string name="txtElBar">Resto Bar "El Bar"</string>
+    <string name="txtDirElBar">Av. San Martín 476</string>
+    <string name="txtBahamas">Resto Bar "Bahamas Pub"</string>
+    <string name="txtDirBahamas">Av. San Martín 451</string>
+    <string name="txtLaOchava">Rotiseria "La Ochava"</string>
+    <string name="txtDirLaOchava">Av. 25 de Mayo esq 3 de Febrero</string>
+    <string name="txtPipols">Pizzeria "Pipol's"</string>
+    <string name="txtDirPipols">Rogelio Gomez 335</string>
+    <string name="txtHilda">El Almacen de Hilda</string>
+    <string name="txtDirHilda">Av. San Martín 370</string>
+    <string name="txtComTip">Comidas Típicas</string>
+    <string name="txtBobe">"Las Comidas de la Bobe"</string>
+    <string name="txtDirBoba">Quiroz 203</string>
+    <string name="txtSara">Sara Guiter de Moguilevsky</string>
+    <string name="txtDirSara">Baron Hirsch 283</string>
+
+    <!--Fotos-->
+    <string name="txtFotoPoli">Polideportivo "Gral. San Martín"</string>
+    <string name="txtFotoMusHist">Museo Historico Regional</string>
+    <string name="txtMusFerro">Museo Ferroviario</string>
+    <string name="txtSinMoises">Sinagoga "T L' Moises"</string>
+    <string name="txtSinNov">Sinagoga "Novibuco"</string>
 </resources>
