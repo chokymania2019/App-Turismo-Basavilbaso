@@ -1,14 +1,17 @@
 package com.practicas.tecnicaturautnbasavilbaso.turismobasavilbaso;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageButton;
 
 public class GastronomiaActivity extends AppCompatActivity {
 
     ImageButton callLaChacra;
     ImageButton callClemente;
-    ImageButton callRobertito;
+    ImageButton callComRob;
     ImageButton callElBar;
     ImageButton callBahamas;
     ImageButton callLaOchava;
@@ -22,21 +25,21 @@ public class GastronomiaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gastronomia);
 
-        /*casteo botones
-        callLaChacra(ImageButton)=findViewById(R.id);
-        callClemente(ImageButton)=findViewById(R.id);
-        callRobertito(ImageButton)=findViewById(R.id);
-        callElBar(ImageButton)=findViewById(R.id);
-        callBahamas(ImageButton)=findViewById(R.id);
-        callLaOchava(ImageButton)=findViewById(R.id);
-        callPipols(ImageButton)=findViewById(R.id);
-        callHilda(ImageButton)=findViewById(R.id);
-        callBobe(ImageButton)=findViewById(R.id);
-        callSara(ImageButton)=findViewById(R.id);
-         */
+
+        callLaChacra=(ImageButton)findViewById(R.id.btnCallLaChacra);
+        callClemente=(ImageButton)findViewById(R.id.btnCallClemente);
+        callComRob=(ImageButton)findViewById(R.id.btnCallComRob);
+        callElBar=(ImageButton)findViewById(R.id.btnCallElBar);
+        callBahamas=(ImageButton)findViewById(R.id.btnCallBahamas);
+        callLaOchava=(ImageButton)findViewById(R.id.btnCallLaOchava);
+        callPipols=(ImageButton)findViewById(R.id.btnCallPipols);
+        callHilda=(ImageButton)findViewById(R.id.btnCallHilda);
+        callBobe=(ImageButton)findViewById(R.id.btnCallBobe);
+        callSara=(ImageButton)findViewById(R.id.btnCallSara);
+
     }
 
-    /*metodos llamadas
+    //metodos llamadas
     public void llamarLaChacra (View view) {
 
         Intent intent = new Intent(Intent.ACTION_DIAL);
@@ -53,7 +56,7 @@ public class GastronomiaActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void llamarRobertito (View view) {
+    public void llamarComRob (View view) {
 
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445481590"));
@@ -116,5 +119,5 @@ public class GastronomiaActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
-     */
+
 }

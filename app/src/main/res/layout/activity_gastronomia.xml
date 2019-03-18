@@ -6,4 +6,623 @@
     android:layout_height="match_parent"
     tools:context=".GastronomiaActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logoturismogestion" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/botonGastronomia"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="447dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="UselessParent">
+
+                <TableRow
+                    android:id="@+id/TableRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:id="@+id/txtHotel5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtLaChacra"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirLaChacra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirLaChacra"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallLaChacra"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarLaChacra"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:id="@+id/txtClemente"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtClemente"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirHotel5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirClemente"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallClemente"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarClemente"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtComRob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtComRobertito"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirComRob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirComRobertito"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallComRob"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarComRob"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtElBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtElBar"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirElBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirElBar"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallElBar"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarElBar"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtBahamas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtBahamas"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirBahamas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirBahamas"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallBahamas"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarBahamas"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtLaOchava"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtLaOchava"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirLaOchava"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirLaOchava"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallLaOchava"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarLaOchava"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtPipols"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtPipols"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirPipols"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirPipols"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallPipols"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarPipols"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtHilda"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtHilda"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirHilda"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirHilda"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallHilda"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarHilda"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="7dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtComTip"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtBobe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtBobe"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirBobe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirBobe"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallBobe"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarBobe"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtSara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/txtSara"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dirSara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtDirSara"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="7dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/btnCallSara"
+                        android:layout_width="50dp"
+                        android:layout_height="37dp"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="llamarSara"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
 </android.support.constraint.ConstraintLayout>

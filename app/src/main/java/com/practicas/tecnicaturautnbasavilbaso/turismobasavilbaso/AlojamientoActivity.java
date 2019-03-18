@@ -1,7 +1,10 @@
 package com.practicas.tecnicaturautnbasavilbaso.turismobasavilbaso;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageButton;
 
 public class AlojamientoActivity extends AppCompatActivity {
@@ -9,6 +12,7 @@ public class AlojamientoActivity extends AppCompatActivity {
     ImageButton call5Soles;
     ImageButton callRobertito;
     ImageButton callDelOeste;
+    ImageButton callDelSol;
     ImageButton callMBurucuya;
     ImageButton callElTala;
     ImageButton callElNe;
@@ -20,17 +24,18 @@ public class AlojamientoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alojamiento);
 
-    //call5Soles(ImageButton)=findViewById(); falta el R.id
-    //callRobertito(ImageButton)=findViewById(); falta el R.id
-    //callDelOeste(ImageButton)=findViewById(); falta el R.id.
-    //callMBurucuya(ImageButton)=findViewById(); falta el R.id.
-    //callElTala(ImageButton)=findViewById(); falta el R.id.
-    //callElNe(ImageButton)=findViewById(); falta el R.id.
-    //callBungTermas(ImageButton)=findViewById(); falta el R.id.
-    //callCampPoli(ImageButton)=findViewById(); falta el R.id.
+    call5Soles=(ImageButton)findViewById(R.id.btnCallHotel5);
+    callRobertito=(ImageButton)findViewById(R.id.btnCallHotelRob);
+    callDelOeste=(ImageButton)findViewById(R.id.btnCallDelOeste);
+    callDelSol=(ImageButton)findViewById(R.id.btnCallDelSol);
+    callMBurucuya=(ImageButton)findViewById(R.id.btnCallMBuru);
+    callElTala=(ImageButton)findViewById(R.id.btnCallElTala);
+    callElNe=(ImageButton)findViewById(R.id.btnCallElNe);
+    callBungTermas=(ImageButton)findViewById(R.id.btnCallBung);
+    callCampPoli=(ImageButton)findViewById(R.id.btnCallCampPoli);
     }
 
-    /*metodos de llamada
+
     public void llamar5Soles (View view) {
 
         Intent intent = new Intent(Intent.ACTION_DIAL);
@@ -48,6 +53,14 @@ public class AlojamientoActivity extends AppCompatActivity {
     }
 
     public void llamarDelOeste (View view) {
+
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:+543445481459"));
+
+        startActivity(intent);
+    }
+
+    public void llamarDelSol (View view) {
 
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:+543445481459"));
@@ -94,5 +107,5 @@ public class AlojamientoActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
-     */
+
 }
