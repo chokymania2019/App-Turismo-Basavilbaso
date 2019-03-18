@@ -33,8 +33,8 @@
     <string name="telServife">+54 3445 482400</string>
 
     <string name="txtAtractivos">Atractivos</string>
-    <string name="txtTermas">Termas de Basavilbaso</string>
-    <string name="txtDirTermas">Ruta 20 Km. 93</string>
+    <string name="txtTermas">Termas de \nBasavilbaso</string>
+    <string name="txtDirTermas">Ruta 20 \nKm. 93</string>
     <string name="txtCircuito">Circuito de las Colonias Judías</string>
     <string name="txtDirCircuito">Asociación Israelita</string>
     <string name="txtMuseoFerroviario">Museo Ferroviario</string>
