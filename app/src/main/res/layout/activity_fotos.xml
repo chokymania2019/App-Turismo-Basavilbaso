@@ -6,26 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".FotosActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logoturismogestion" />
+
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="wrap_content"
+        android:layout_width="101dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="144dp"
-        android:layout_marginLeft="144dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="140dp"
-        android:layout_marginRight="140dp"
-        android:text="@string/botonFotos"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:gravity="center_horizontal"
+        android:text="@string/txtFotos"
         android:textColor="@android:color/background_dark"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="30sp" />
 
     <ScrollView
         android:layout_width="match_parent"

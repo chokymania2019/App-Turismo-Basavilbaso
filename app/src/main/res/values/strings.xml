@@ -8,6 +8,7 @@
     <string name="botonTelefonos">Telefonos Utiles</string>
     <string name="botonPlano">Plano de la Ciudad</string>
     <string name="botonFotos">Fotos</string>
+    <string name="txtFotos">Fotos</string>
 
     <string name="txtPlano">Plano de la Ciudad</string>
     <string name="btnMaps">ver en Google Maps</string>
@@ -88,7 +89,7 @@
     <string name="txtDirSara">Baron Hirsch 283</string>
 
     <!--Fotos-->
-    <string name="txtFotoPoli">Polideportivo "Gral. San Martín"</string>
+    <string name="txtFotoPoli">Polidep. "Gral. San Martín"</string>
     <string name="txtFotoMusHist">Museo Historico Regional</string>
     <string name="txtMusFerro">Museo Ferroviario</string>
     <string name="txtSinMoises">Sinagoga "T L' Moises"</string>
