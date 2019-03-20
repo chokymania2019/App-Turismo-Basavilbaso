@@ -35,13 +35,12 @@
     <string name="txtAtractivos">Atractivos</string>
     <string name="txtTermas">Termas de \nBasavilbaso</string>
     <string name="txtDirTermas">Ruta 20 \nKm. 93</string>
-    <string name="txtCircuito">Circuito de las Colonias Judías</string>
-    <string name="txtDirCircuito">Asociación Israelita</string>
-    <string name="txtMuseoFerroviario">Museo Ferroviario</string>
-    <string name="txtDirMuseoFerroviario">Podesta e I. Neyra</string>
-    <string name="txtMuseoHistórico">Museo Histórico Regional</string>
-    <string name="txtDirMuseoHistorico">Av. Pte Peron y Av. San Martín</string>
-    <string name="txtCasaMuseo">Casa Museo "La Posta del Aviador"</string>
+    <string name="txtCircuito">Circuito de las \nColonias Judías</string>
+    <string name="txtDirCircuito">Asociación \nFerroviario</string>
+    <string name="txtDirMuseoFerroviario">Podesta e \nI. Neyra</string>
+    <string name="txtMuseoHistórico">Museo Histórico \nRegional</string>
+    <string name="txtDirMuseoHistorico">Av. Pte Peron y \nAv. San Martín</string>
+    <string name="txtCasaMuseo">Casa Museo "La Posta \ndel Aviador"</string>
     <string name="txtDirCasaMuseo">Quiróz 569</string>
 
     <string name="txtAlojamientos">Alojamientos</string>
